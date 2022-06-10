@@ -12,6 +12,7 @@ Runs with baetorch (built on Pytorch), and Neural Tangent Kernel.
 Main codes are in the base folder:
 - `01-Main-Run.py` executes the training and prediction with deterministic AE, VAE and BAEs, and hyperparameter grids are specified in `Params_{Dataset}.py` (e.g. `Params_ZEMA.py` for ZeMA dataset). 
 - `02-Run-InfiniteBAE.py` executes similar evaluation run but with infinitely wide BAE using Neural Tangent Kernel.
+- The main code creates a new `experiments` folder and save the results in csv files.
 
 ## Citation
 
